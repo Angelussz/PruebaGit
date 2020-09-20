@@ -60,3 +60,6 @@ Al final para los cambios de una rama a las master podemos realizar lo siguiente
 git merge nombrerama
 ```
 Al final como vemos se unieron las dos ramas
+
+//imagen
+
