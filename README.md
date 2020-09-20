@@ -63,3 +63,20 @@ Al final como vemos se unieron las dos ramas
 
 //imagen
 
+Y luego podemos para terminar podemos llevarlo a un repositorio de github con 
+```
+git remote add origin linkgithub
+```
+y luego:
+```
+git push origin master
+```
+Asi llevamos nuestro codigo local a un repositorio, pero en la practica no es tan fiable hacer eso es mejor crear un repositorio primero y luego hacer todos los cambios que queremos, como ya enviamos un repositorio local a github borraremos el anterior y luego el repositorio que tenemos alojado en github lo enviamos a nuestro pc con:
+```
+git clone httdelrepositorio
+```
+
+Al final al hacer cualquier modificacion que querramos solo modificamos los archivos y llevamos a github nuestros cambios con:
+```
+git push 
+```
