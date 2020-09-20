@@ -55,3 +55,4 @@ Ahora al crear una rama hace copia de todos los archivos y luego seria como una 
 ```
 git merge nombrerama
 ```
+Luego podemos ver que la rama lo que agreguemos no se va a agregar a la rama principal:
