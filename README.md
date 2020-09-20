@@ -49,6 +49,9 @@ git branch nombrerama
 ```
 Entonces ahora tenemos una rama llamada ater y como podemos ver aunque creamos una rama, la rama master esta pintada porque aun seguimos trabajando en ella, para poder trabajar con la rama creada realizamos el siguiente comando:
 ```
-git checkout nombreramad
+git checkout nombrerama
 ```
-
+Ahora al crear una rama hace copia de todos los archivos y luego seria como una carpeta que tiene todo similar pero podemos agregar cosas o quitar sin molestar a la rama principal, al final todos los cambios que realizamos podemos meterlo a la rama principal con:
+```
+git merge nombrerama
+```
