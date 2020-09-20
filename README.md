@@ -79,7 +79,7 @@ y luego:
 git push origin master
 ```
 </br />
-![](imagenes/enviargit.png)
+
 Asi llevamos nuestro codigo local a un repositorio, pero en la practica no es tan fiable hacer eso es mejor crear un repositorio primero y luego hacer todos los cambios que queremos, como ya enviamos un repositorio local a github borraremos el anterior y luego el repositorio que tenemos alojado en github lo enviamos a nuestro pc con:
 ```
 git clone httdelrepositorio
