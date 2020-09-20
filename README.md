@@ -85,6 +85,8 @@ Asi llevamos nuestro codigo local a un repositorio, pero en la practica no es ta
 git clone httdelrepositorio
 ```
 ![](imagenes/gitclone.png)
+
+
 Al final al hacer cualquier modificacion que querramos solo modificamos los archivos y llevamos a github nuestros cambios con:
 ```
 git push 
