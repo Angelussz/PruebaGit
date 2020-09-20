@@ -19,7 +19,10 @@ git add .
 ```
 Asi poder hacer que git maneje versiones de estos archivos, osea si modificamos algo de este nos lo va a decir github.
 
-Ahora cuando nosotros modificamos un archivo el controlador de versions git no va a poder hacer los cambios en el repositorio a no ser que le demos commit, ademas que te mostrara que un archivo y que lineas de este archivo se modificaron:
+Ahora cuando nosotros modificamos un archivo el controlador de versions git no va a poder hacer los cambios en el repositorio a no ser que le demos primero 'git add', ademas que te mostrara que un archivo y que lineas de este archivo se modificaron si utilizamos:
+```
+git diff nombrearchivo
+```
 //imange
 Luego para confirmar todos los cambios que hicimos le hacemos:
 ```
