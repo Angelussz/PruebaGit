@@ -37,3 +37,18 @@ git log
 ```
 //imagen
 
+Ahora podemos hacer varias ramas de esta rama master, primero para ver las rmas que tenemos utilizamos el siguiente comando:
+```
+git branch
+```
+Como podemos ver en la imagen anterior nos esta diciendo que estamos en la rama **MASTER**
+
+Ahora para crear una **RAMA** de este proyecto se realiza con el siguiente comando:
+```
+git branch nombrerama
+```
+Entonces ahora tenemos una rama llamada ater y como podemos ver aunque creamos una rama, la rama master esta pintada porque aun seguimos trabajando en ella, para poder trabajar con la rama creada realizamos el siguiente comando:
+```
+git checkout nombreramad
+```
+
