@@ -51,8 +51,11 @@ Entonces ahora tenemos una rama llamada ater y como podemos ver aunque creamos u
 ```
 git checkout nombrerama
 ```
-Ahora al crear una rama hace copia de todos los archivos y luego seria como una carpeta que tiene todo similar pero podemos agregar cosas o quitar sin molestar a la rama principal, al final todos los cambios que realizamos podemos meterlo a la rama principal con:
+Ahora al crear una rama hace copia de todos los archivos y luego seria como una carpeta que tiene todo similar pero podemos agregar cosas o quitar sin molestar a la rama principal.
+Luego podemos ver que la rama lo que agreguemos no se va a agregar a la rama principal:
+//imagen
+
+Al final para los cambios de una rama a las master podemos realizar lo siguiente:
 ```
 git merge nombrerama
 ```
-Luego podemos ver que la rama lo que agreguemos no se va a agregar a la rama principal:
